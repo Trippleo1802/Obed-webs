@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pair Code</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #1a1a1a; /* Darker background for contrast */
+      font-family: 'Georgia', serif; /* More regal font */
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box {
+      width: 300px;
+      height: 320px;
+      padding: 20px;
+      text-align: center;
+      background-color: #4b0e69; /* Royal purple */
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(250, 249, 249, 0.7);
+    }
+
+    #text {
+      color: #f6f5f5;
+    }
+
+    .input-container {
+      display: flex;
+      background: #2e2e2e; /* Darker input background */
+      border-radius: 1rem;
+      padding: 0.3rem;
+      gap: 0.3rem;
+      max-width: 300px;
+      width: 100%;
+    }
+
+    .input-container input {
+      border-radius: 0.8rem 0 0 0.8rem;
+      background: #e8e8e8;
+      width: 100%;
+      flex-basis: 75%;
+      padding: 1rem;
+      border: none;
+      transition: all 0.2s ease-in-out;
+      color: #000; /* Text color for input */
+    }
+
+    .input-container button {
+      flex-basis: 15%;
+      padding: 1rem;
+      background: #b9a0d7; /* Lighter purple for button */
+      font-weight: 700;
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+      color: white;
+      border: none;
+      border-radius: 0 1rem 1rem 0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .input-container button:hover {
+      background: linear-gradient(135deg, #c01736 0%, #8b17b6 100%);
+    }
+
+    .centered-text {
+      color: #e9e4e4;
+      margin: 10px 0;
+    }
+
+    @media (max-width: 500px) {
+      .box {
+        width: 90%; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="box">
+      <div id="text">
+        <h3 class="centered-text">👸🫅 Pairing Code 💰🔥</h3>
+        <h6 class="centered-text">Enter Your Number with Country Code.</h6>
+        <div class="input-container">
+          <input placeholder="911217xxxx" type="number" id="number" required>
+          <button id="submit">Submit</button>
+        </div>
+        
+        <a id="waiting-message" class="centered-text" style="display: none;">Generating...</a>
+        <main id="pair" class="centered-text"></main>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
+  <script>
+    let a = document.getElementById("pair");
+    let b = document.getElementById("submit");
+    let c = document.getElementById("number");
+
+    async function Copy() {
+      let text = document.getElementById("copy").innerText;
+      await navigator.clipboard.writeText(text.replace('CODE: ', ''));
+      document.getElementById("copy").innerText = "COPIED";
+      setTimeout(() => {
+        document.getElementById("copy").innerText = text;
+      }, 500);
+    }
+
+    b.addEventListener("click", async (e) => {
+      e.preventDefault();
+      const inputNumber = c.value.replace(/[^0-9]/g, "");
+      if (!inputNumber) {
+        a.innerHTML = '<span style="color:white;font-weight:bold">Enter your WhatsApp number with Country Code</span><br><br>';
+      } else if (inputNumber.length < 11) {
+        a.innerHTML = '<span style="color:red;font-weight:bold">Invalid Number</span><br><br>';
+      } else {
+        c.value = "+" + inputNumber; // Formatting
+        a.innerHTML = '<span style="color:white;font-weight:bold">Please Wait...</span><br><br>';
+        let { data } = await axios(`/code?number=${inputNumber}`);
+        let code = data.code || "Service Unavailable";
+        a.innerHTML += `<span id="copy" onclick="Copy()" style="color:red;font-weight:bold">CODE: <span style="color:white;font-weight:bold">${code}</span></span><br><br>`;
+      }
+    });
+  </script>
+</body>
+</html>
