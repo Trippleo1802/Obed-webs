@@ -58,31 +58,31 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected successfully*
-*_Made by HAKI WITH 🤍_*
+*_Made by ABOVEALL WITH STAR-KING0*
 ______________________________________
-╔════🍀
+╔════👿
 ║  TO ALL MY SUPPORTERS:
 ║ _Thanks for you so much for supporting._
-╚════════════════════════🍀
-╔═════🍀
-║  『••• ⬡𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽⬡ •••』
-║⬡ *owner:* _https://wa.me/2349112171078_
+╚════════════════════════❤️
+╔═════💀
+║  『••• ᴛʜᴇ ᴏɴᴇ ᴀʙᴏᴠᴇ ᴀʟʟ •••』
+║⬡ *owner:* _https://wa.me/2348084644182_
 ║⬡ 
 ║
 ║bot repo👇
 ║
-║⬡ *QUEEN_NIKKA:* _https://github.com/hakisolos/Queen_Nikka_
-║⬡ *AKAZA-MD:* _https://github.com/hakisolos/Akaza-Md_
+║⬡ *ABOVEALL:* _https://github.com/Jupiterbold05/Aboveall_
+║⬡ 
 ║
 ║⬡Support channels⬡
 ║
-║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L_
-║⬡ *GROUP:* _https://chat.whatsapp.com/CdF4bo9NLcSBP8ThD2tDko_
+║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029Vas9N7MBA1f0yw8dZ515_
+║⬡ *GROUP:* _https://chat.whatsapp.com/CdF4bo9NLcSBP8ThD2to_
 ║
-║⬡ *©Copyright* _KING HAKI_
-╚══════════════════════════════════🍀
+║⬡ *©Copyright* _ABOVE ALL_
+╚══════════════════════════════════💀
 _____________________________________
-
+	
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
