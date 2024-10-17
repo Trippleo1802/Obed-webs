@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pair Code</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
       display: flex;
@@ -27,7 +27,7 @@
       padding: 20px;
       border-radius: 15px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-      background: rgba(0, 0, 0, 0.7); /* Black overlay to make text readable */
+      background: rgba(0, 0, 0, 0.7); /* Black overlay for readability */
       animation: fadeIn 2s ease-in-out;
     }
 
@@ -46,8 +46,13 @@
       transform: scale(1.05); /* Slight zoom on hover */
     }
 
-    #text h3, #text h6 {
-      font-family: 'Pacifico', cursive;
+    #text h3 {
+      font-family: 'Roboto', sans-serif; /* New font for the title */
+      margin-bottom: 20px;
+    }
+
+    #text h6 {
+      font-family: 'Pacifico', cursive; /* Keeping the same font for the subtitle */
       margin-bottom: 20px;
     }
 
@@ -74,7 +79,7 @@
 
     .input-container button {
       padding: 1rem;
-      background: #ff4081; /* Vibrant pink for button */
+      background: #3f51b5; /* New vibrant blue color */
       color: white;
       border: none;
       border-radius: 0 1rem 1rem 0;
@@ -84,7 +89,7 @@
     }
 
     .input-container button:hover {
-      background: #f50057; /* Darker shade on hover */
+      background: #303f9f; /* Darker shade on hover */
     }
 
     .centered-text {
