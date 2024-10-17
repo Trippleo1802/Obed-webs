@@ -79,7 +79,7 @@
 
     .input-container button {
       padding: 1rem;
-      background: #3f51b5; /* New vibrant blue color */
+      background: #e53935; /* Changed to vibrant red */
       color: white;
       border: none;
       border-radius: 0 1rem 1rem 0;
@@ -89,13 +89,24 @@
     }
 
     .input-container button:hover {
-      background: #303f9f; /* Darker shade on hover */
+      background: #b71c1c; /* Darker red on hover */
     }
 
     .centered-text {
       color: #fff;
       font-weight: bold;
       margin: 15px 0;
+    }
+
+    .footer-text {
+      color: #fff;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.2rem;
+      text-align: center;
+      margin-top: 30px;
+      background: linear-gradient(to right, #ff007f, #00ff7f); /* Mixed color font effect */
+      -webkit-background-clip: text;
+      color: transparent;
     }
 
     @media (max-width: 500px) {
@@ -126,7 +137,11 @@
         <main id="pair" class="centered-text"></main>
       </div>
     </div>
+    <footer>
+      <p class="footer-text">ɱαԃҽ Ⴆყ ƚԋҽ σɳҽ αႦσʋҽ αʅʅ 😈</p>
+    </footer>
   </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
   <script>
     let a = document.getElementById("pair");
@@ -160,4 +175,5 @@
     });
   </script>
 </body>
-</html>
+  </html>
+  
