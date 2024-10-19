@@ -60,28 +60,28 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 *_Pair Code Connected successfully*
-*_Made by ABOVEALL WITH STAR-KING0*
+*_Made by LØRD ÃBBY TËÇH SÙPPØRT *
 ______________________________________
 ╔════👿
 ║  TO ALL MY SUPPORTERS:
 ║ _Thanks for you so much for supporting._
 ╚════════════════════════❤️
 ╔═════💀
-║  『••• ᴛʜᴇ ᴏɴᴇ ᴀʙᴏᴠᴇ ᴀʟʟ •••』
-║⬡ *owner:* _https://wa.me/2348084644182_
+║  『••• Queen Maria👑 •••』
+║⬡ *owner:* _https://wa.me/2347032411938_
 ║⬡ 
 ║
 ║bot repo👇
 ║
-║⬡ *ABOVEALL:* _https://github.com/Jupiterbold05/Aboveall_
+║⬡ *Queen_Maria:* _https://github.com/abbybots141/Queen_Maria_
 ║⬡ 
 ║
 ║⬡Support channels⬡
 ║
-║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029Vas9N7MBA1f0yw8dZ515_
-║⬡ *GROUP:* _https://chat.whatsapp.com/CdF4bo9NLcSBP8ThD2to_
+║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A_
+║⬡ *GROUP:* _https://chat.whatsapp.com/Gd4JxOlgO6t4CKWunv8Adz_
 ║
-║⬡ *©Copyright* _ABOVE ALL_
+║⬡ *©Copyright* _LØRD ÃBBY TËÇH_
 ╚══════════════════════════════════💀
 _____________________________________
 	
