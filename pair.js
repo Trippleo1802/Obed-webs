@@ -65,13 +65,13 @@ ______________________________________
 ║ _Thanks for you so much for supporting._
 ╚════════════════════════❤️
 ╔═════💀
-║  『••• ᴛʜᴇ ᴏɴᴇ ᴀʙᴏᴠᴇ ᴀʟʟ •••』
+║  『••• Queen_Maria •••』
 ║⬡ *owner:* _https://wa.me/2347032411938_
 ║⬡ 
 ║
 ║bot repo👇
 ║
-║⬡ *ABOVEALL:* _https://github.com/abbybots141/Queen_Mariw_
+║⬡ *Queen_Maria:* _https://github.com/abbybots141/Queen_Mariw_
 ║⬡ 
 ║
 ║⬡Support channels⬡
