@@ -58,28 +58,28 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected successfully*
-*_Made by LØRD ÃBBY TËÇH SÙPPØRT *
+*_Made by CASEYRHODES TËÇH SÙPPØRT *
 ______________________________________
 ╔════👿
 ║  TO ALL MY SUPPORTERS:
 ║ _Thanks for you so much for supporting._
 ╚════════════════════════❤️
 ╔═════💀
-║  『••• Queen_Maria •••』
-║⬡ *owner:* _https://wa.me/2347032411938_
+║  『••• CASEYRHODES MD •••』
+║⬡ *owner:* _https://wa.me/254112192119_
 ║⬡ 
 ║
 ║bot repo👇
 ║
-║⬡ *Queen_Maria:* _https://github.com/abbybots141/Queen_Mariw_
+║⬡ *CHARITY MD:* _https://github.com/caseyweb/Charity-MD-v2_
 ║⬡ 
 ║
 ║⬡Support channels⬡
 ║
-║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029VahOucpCcW4s1Zk3O61A_
-║⬡ *GROUP:* _https://chat.whatsapp.com/Gd4JxOlgO6t4CKWunv8Adz_
+║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E_
+║⬡ *GROUP:* _https://chat.whatsapp.com/DpqhkxaBtbuA705P3AozM2_
 ║
-║⬡ *©Copyright* _LØRD ÃBBY TËÇH SÙPPØRT_
+║⬡ *©Copyright* _CASEYRHODES TËÇH SÙPPØRT_
 ╚══════════════════════════════════💀
 _____________________________________
 	
