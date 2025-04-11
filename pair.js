@@ -58,28 +58,28 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected successfully*
-*_Made by CASEYRHODES TËÇH SÙPPØRT *
+*_Made by OBED TECH TËÇH SÙPPØRT *
 ______________________________________
 ╔════👿
 ║  TO ALL MY SUPPORTERS:
 ║ _Thanks for you so much for supporting._
 ╚════════════════════════❤️
 ╔═════💀
-║  『••• CASEYRHODES MD •••』
-║⬡ *owner:* _https://wa.me/254112192119_
+║  『••• RICHY OBEDX  •••』
+║⬡ *owner:* _https://wa.me/254791637868_
 ║⬡ 
 ║
 ║bot repo👇
 ║
-║⬡ *CHARITY MD:* _https://github.com/caseyweb/Charity-MD-v2_
+║⬡ *RICHY OBEDX:* _https://github.com/Trippleo1802/RICHY-OBEDX
 ║⬡ 
 ║
 ║⬡Support channels⬡
 ║
 ║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E_
-║⬡ *GROUP:* _https://chat.whatsapp.com/DpqhkxaBtbuA705P3AozM2_
+║⬡ *GROUP:* _https://chat.whatsapp.com/DfJTRlOtIc5HTEFptXYvsV
 ║
-║⬡ *©Copyright* _CASEYRHODES TËÇH SÙPPØRT_
+║⬡ *©Copyright* _OBED TËÇH SÙPPØRT_
 ╚══════════════════════════════════💀
 _____________________________________
 	
