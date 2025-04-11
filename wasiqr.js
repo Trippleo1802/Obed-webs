@@ -79,7 +79,7 @@ ______________________________________
 ║⬡Support channels⬡
 ║
 ║⬡ *CHANNEL:* _https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I
-║⬡ *GROUP:* _https://chat.whatsapp.com/DpqhkxaBtbuA705P3AozM2_
+║⬡ *GROUP:* _https://chat.whatsapp.com/DfJTRlOtIc5HTEFptXYvsV
 ║
 ║⬡ *©Copyright* _OBED TËÇHX_
 ╚══════════════════════════════════💀
