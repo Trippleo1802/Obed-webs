@@ -2,7 +2,7 @@
     "name": "RICHY OBEDX",
     "description": "SESSION SITE",
     "logo": "",
-    "repository": "https://github.com/Vickismartw123/SESSION-GENERATOR",
+    "repository": "https://github.com/Trippleo1802/Obed-webs",
     "keywords": ["@Xcelsama"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
